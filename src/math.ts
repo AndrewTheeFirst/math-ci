@@ -15,6 +15,10 @@ export function divide(a: number, b: number): number | null {
   return a / b;
 }
 
+export function power(a: number, b: number): number {
+  return a ** b;
+}
+
 export function factorial(n: number): number | null {
   if (n < 0 || !Number.isInteger(n)) return null;
   if (n <= 1) return 1;
